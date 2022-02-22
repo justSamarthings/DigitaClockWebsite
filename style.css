@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(to right, #0d8ac4, #01588b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  font-size: 6rem;
+  color: white;
+}
+.clock {
+  background-color: rgb(78, 75, 75);
+  border: 15px solid black;
+  border-radius: 50px;
+  position: absolute;
+  width: 700px;
+  text-align: center;
+  /* height: 300px; */
+  padding: 80px 5px 80px 5px;
+}
+.clock::after {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  background-color: green;
+  top: -61px;
+  left: 550px;
+  border: 15px solid black;
+}
